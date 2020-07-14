@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form validation</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div id="error"></div>
+    <form id="form" action="/" method="GET" class="container">
+      <div>
+        <label for="name" class="tag">Provide a name for pipeline:</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div>
+        <label for="name" class="tag">GSC Project name:</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div>
+        <label for="name" class="tag">GSC Bucket name:</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div>
+        <label for="name" class="tag">Input Cloud Storage File(s):</label>
+        <input type="file" name="name" id="file" />
+      </div>
+      <div>
+        <label for="name" class="tag">GSC Credentials:</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div>
+        <label for="name" class="tag">Run Every</label>
+        <input type="number" name="time" id="time" />
+      </div>
+      <button type="submit" class="button">Create</button>
+    </form>
+  </body>
+</html>
